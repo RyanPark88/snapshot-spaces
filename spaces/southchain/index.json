@@ -1,0 +1,26 @@
+{
+  "name": "SouthChain",
+  "network": "1",
+  "symbol": "SCT",
+  "skin": "southchain",
+  "domain": "vote.southchain.digital",
+  "strategies": [
+    {
+      "name": "erc20-balanceof",
+      "params": {
+        "address": "0x98f2e50eECA2352b60E1Dad37f93Dc9113a07BE9",
+        "symbol": "SCT",
+        "decimals": 18
+      }
+    }
+  ],
+  "members": [
+    "0x51A33a5bBa82f8EBd0fE2192A25CA2E60B9Dc32f"
+    "0x54c787bA416570B72B5Da1457a7bE0932261f9b2"
+  ],
+  "filters": {
+    "defaultTab": "core",
+    "minScore": 2000,
+    "onlyMembers": true
+  }
+}
