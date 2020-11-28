@@ -3,7 +3,7 @@
   "network": "1",
   "symbol": "SCT",
   "skin": "southchain",
-  "domain": "vote.southchain.digital",
+  "domain": "vote.southchain.eth",
   "strategies": [
     {
       "name": "erc20-balanceof",
